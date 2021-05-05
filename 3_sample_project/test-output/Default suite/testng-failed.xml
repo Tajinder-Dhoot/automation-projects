@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.web.automation.testcases.TC_001">
+      <class name="org.web.automation.testcases.TC_001_Main_Page">
         <methods>
-          <include name="tc_001"/>
           <include name="startBrowser"/>
+          <include name="tc_001_ReachLoginPage"/>
         </methods>
-      </class> <!-- org.web.automation.testcases.TC_001 -->
+      </class> <!-- org.web.automation.testcases.TC_001_Main_Page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
