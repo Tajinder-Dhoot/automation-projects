@@ -26,39 +26,6 @@ public class MyAccountPage {
 		}
 	}
 	
-	public void clickDressesButtonTopMenu() {	
-		try {
-			action.clickButton(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("login_dresses_tab_top_menu_xpath"))));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-	
-	public void clickDressesAddToCartButton() {	
-		try {
-			action.clickButton(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("login_dresses_window_add_to_cart_xpath"))));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-	
-	public void clickDressesAddToCartPopupCheckoutButton() {	
-		try {
-			action.clickButton(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("login_dresses_add_to_cart_popup_checkout_button_xpath"))));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-	
 	public void clickOrderHistoryButton() {	
 		try {
 			action.clickButton(driver.findElement(By.xpath

@@ -10,6 +10,8 @@ public class Validate {
 	public void validateElementPresent(WebDriver driver, String locatorType, String locator) {
 		
 		if (locatorType.equalsIgnoreCase("xpath")) {
+			System.out.println(locatorType);
+			System.out.println(locator);
 			assertEquals(driver.findElement(By.xpath(locator)).isDisplayed(), true);
 		}
 		else if (locatorType.equalsIgnoreCase("id")) {

@@ -5,12 +5,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.web.automation.pages.MyAccountPage;
+import org.web.automation.pages.ProductAddedPopup;
 import org.web.automation.pages.HomePage;
 import org.web.automation.pages.HomePageNavBar;
 import org.web.automation.pages.LoginCard;
 import org.web.automation.pages.Registration;
 import org.web.automation.pages.ShoppingCart;
+import org.web.automation.utility.PlaceOrder;
 import org.web.automation.utility.PropertyReader;
+import org.web.automation.utility.SignIn;
 
 public class InstanciateDriver {
 	
@@ -21,6 +24,9 @@ public class InstanciateDriver {
 	public LoginCard loginCard = null;
 	public HomePageNavBar homeNav = null;
 	public ShoppingCart cart = null;
+	public ProductAddedPopup productPopup = null;
+	public PlaceOrder order = null;
+	public SignIn signIn = null;
 	
 	@BeforeMethod
 	public void startBrowser() throws Exception {
@@ -34,6 +40,9 @@ public class InstanciateDriver {
 		home = new HomePage(driver);
 		homeNav = new HomePageNavBar(driver);
 		cart = new ShoppingCart(driver);
+		productPopup = new ProductAddedPopup(driver);
+		order = new PlaceOrder(driver);
+		signIn = new SignIn(driver);
 
 	}
 	

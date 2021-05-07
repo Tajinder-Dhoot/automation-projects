@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.web.automation.testcases.TC_005_ShoppingCartFunctionality">
+      <class name="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality">
         <methods>
-          <include name="tc_001_checkCartIsEmpty"/>
+          <include name="tc_003_checkProceedToCheckoutButtonPresent"/>
+          <include name="tc_002_checkContinuebuttonPresent"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- org.web.automation.testcases.TC_005_ShoppingCartFunctionality -->
+      </class> <!-- org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

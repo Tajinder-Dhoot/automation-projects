@@ -5,7 +5,7 @@ import org.web.automation.base.InstanciateDriver;
 
 public class TC_001_LoginCard_Functionality extends InstanciateDriver {
 	
-	/*@Test
+	@Test
 	public void tc_001_Valid_User() {
 		
 		loginCard.clickSignInTab();
@@ -57,7 +57,7 @@ public class TC_001_LoginCard_Functionality extends InstanciateDriver {
 		loginCard.enterEmptyEmail();
 		loginCard.enterValidPassword();
 		loginCard.clickSignInButton();
-	}*/
+	}
 	
 	@Test
 	public void tc_007_ValidEmail_EmptyPassword() {

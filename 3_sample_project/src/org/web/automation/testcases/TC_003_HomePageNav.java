@@ -5,113 +5,81 @@ import org.web.automation.base.InstanciateDriver;
 
 public class TC_003_HomePageNav extends InstanciateDriver {
 
+	
 	/*@Test 
 	public void tc_001_successfulOrderByWomenCategorySignedOutUser() {
 		
 		homeNav.clickNavWomenButton();
-		homeNav.clickNavAddToCartButton();
-		homeNav.clickNavProceedToCheckoutButton();
-		homeNav.clickNavOrderProceedToCheckoutButton();
+		homeNav.clickAddToCartButtonInCategoryProductlist();
+		productPopup.clickProceedToCheckoutButton();
+		cart.clickProceedToCheckoutButtonInCart();
 		
 		loginCard.enterValidEmail();
 		loginCard.enterValidPassword();
 		loginCard.clickSignInButton();
 		
-		homeNav.clickAddressWindowProceedToCheckoutButton();
-		homeNav.clickShippingWindowAgreeToTermsButton();
-		homeNav.clickShippingWindowProceedToCheckoutButton();
-		homeNav.clickPaymentWindowPayByWireButton();
-		homeNav.clickPaymentWindowConfirmOrderButton();
-	}*/
-	
-	/*@Test 
-	public void tc_001_successfulOrderByDressCategorySignedOutUser() {
-		
-		homeNav.clickNavDressesButton();
-		homeNav.clickNavAddToCartButton();
-		homeNav.clickNavProceedToCheckoutButton();
-		homeNav.clickNavOrderProceedToCheckoutButton();
-		
-		loginCard.enterValidEmail();
-		loginCard.enterValidPassword();
-		loginCard.clickSignInButton();
-		
-		homeNav.clickAddressWindowProceedToCheckoutButton();
-		homeNav.clickShippingWindowAgreeToTermsButton();
-		homeNav.clickShippingWindowProceedToCheckoutButton();
-		homeNav.clickPaymentWindowPayByWireButton();
-		homeNav.clickPaymentWindowConfirmOrderButton();
-	}*/
-	
-	/*@Test 
-	public void tc_001_successfulOrderByTshirtsCategorySignedOutUser() {
-		
-		homeNav.clickNavTshirtsButton();
-		homeNav.clickNavAddToCartButton();
-		homeNav.clickNavProceedToCheckoutButton();
-		homeNav.clickNavOrderProceedToCheckoutButton();
-		
-		loginCard.enterValidEmail();
-		loginCard.enterValidPassword();
-		loginCard.clickSignInButton();
-		
-		homeNav.clickAddressWindowProceedToCheckoutButton();
-		homeNav.clickShippingWindowAgreeToTermsButton();
-		homeNav.clickShippingWindowProceedToCheckoutButton();
-		homeNav.clickPaymentWindowPayByWireButton();
-		homeNav.clickPaymentWindowConfirmOrderButton();
-	}*/
-	
-	/*@Test 
-	public void tc_001_Continue_ShoppingbyCategory() {
-		
-		homeNav.clickNavTshirtsButton();
-		homeNav.clickNavAddToCartButton();
-		homeNav.clickContinueShoppingButton();
-		
-	}*/
-	
-	/*@Test 
-	public void tc_001_Continue_ShoppingHomePage() {
-		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
-	}*/
-	
-	/*@Test 
-	public void tc_001_successfulOrderFromHomePageSignedOutUser() {
-		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickProceedToCheckoutButton();
-		homeNav.clickOrderProceedToCheckoutButton();
-		
-		loginCard.enterValidEmail();
-		loginCard.enterValidPassword();
-		loginCard.clickSignInButton();
-		
-		homeNav.clickAddressWindowProceedToCheckoutButton();
-		homeNav.clickShippingWindowAgreeToTermsButton();
-		homeNav.clickShippingWindowProceedToCheckoutButton();
-		homeNav.clickPaymentWindowPayByWireButton();
-		homeNav.clickPaymentWindowConfirmOrderButton();
+		order.placeOrder();
 	}*/
 	
 	@Test 
-	public void tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity() {
+	public void tc_002_successfulOrderByDressCategorySignedOutUser() {
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickProceedToCheckoutButton();
-		homeNav.clickReduceQuantityButton();
-		homeNav.clickOrderProceedToCheckoutButton();
+		homeNav.clickNavDressesButton();
+		homeNav.clickAddToCartButtonInCategoryProductlist();
+		productPopup.clickProceedToCheckoutButton();
+		cart.clickProceedToCheckoutButtonInCart();
 		
 		loginCard.enterValidEmail();
 		loginCard.enterValidPassword();
 		loginCard.clickSignInButton();
 		
-		homeNav.clickAddressWindowProceedToCheckoutButton();
-		homeNav.clickShippingWindowAgreeToTermsButton();
-		homeNav.clickShippingWindowProceedToCheckoutButton();
-		homeNav.clickPaymentWindowPayByWireButton();
-		homeNav.clickPaymentWindowConfirmOrderButton();
+		order.placeOrder();
 	}
+	
+	@Test 
+	public void tc_003_successfulOrderByTshirtsCategorySignedOutUser() {
+		
+		homeNav.clickNavTshirtsButton();
+		homeNav.clickAddToCartButtonInCategoryProductlist();
+		productPopup.clickProceedToCheckoutButton();
+		cart.clickProceedToCheckoutButtonInCart();
+		
+		loginCard.enterValidEmail();
+		loginCard.enterValidPassword();
+		loginCard.clickSignInButton();
+	
+		order.placeOrder();
+	}
+	
+	/*@Test 
+	public void tc_004_Continue_ShoppingbyCategory() {
+		
+		homeNav.clickNavTshirtsButton();
+		homeNav.clickAddToCartButtonInCategoryProductlist();
+		productPopup.clickContinueShoppingButton();
+	}
+	
+	@Test 
+	public void tc_005_Continue_ShoppingHomePage() {
+		
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
+	}*/
+	
+	/*@Test 
+	public void tc_006_successfulOrderFromHomePageSignedOutUser() {
+		
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickProceedToCheckoutButton();
+		cart.clickProceedToCheckoutButtonInCart();
+		
+		loginCard.enterValidEmail();
+		loginCard.enterValidPassword();
+		loginCard.clickSignInButton();
+		
+		order = new PlaceOrder(driver);
+		order.placeOrder();
+	}*/
+	
+	
 }

@@ -4,14 +4,12 @@ import org.testng.annotations.Test;
 import org.web.automation.base.InstanciateDriver;
 
 public class TC_004_MyAccountPageFunctionality extends InstanciateDriver {
-
+	
 	@Test
-	public void tc_002_UpdateFirstNameInMyAddress() {
+	public void tc_001_UpdateFirstNameInMyAddress() {
 		
-		loginCard.clickSignInTab();
-		loginCard.enterValidEmail();
-		loginCard.enterValidPassword();
-		loginCard.clickSignInButton();
+		signIn.signInFromHomePage();
+		
 		myAccount.clickMyAddressesButton();
 		myAccount.clickMyAccountButton();
 		

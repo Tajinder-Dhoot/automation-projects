@@ -25,5 +25,16 @@ public class HomePage {
 			e.printStackTrace();
 		}
 	}
+	
+	public void clickAddToCartButtonOnHomeProductList() {
+		try {
+			action.clickButton(driver.findElement(By.xpath
+					(PropertyReader.readElementProperty("home_add_to_cart_button"))));
+		}
+		catch (Exception e) {
+			System.out.println("---------------------Exception-----------------");
+			e.printStackTrace();
+		}
+	}
 
 }

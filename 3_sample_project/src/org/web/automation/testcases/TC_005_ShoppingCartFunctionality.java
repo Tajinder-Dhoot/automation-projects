@@ -5,7 +5,7 @@ import org.web.automation.base.InstanciateDriver;
 
 public class TC_005_ShoppingCartFunctionality extends InstanciateDriver {
 	
-	/*@Test
+	@Test
 	public void tc_001_checkCartIsEmpty() {
 		
 		home.clickCartTabButton();
@@ -13,50 +13,52 @@ public class TC_005_ShoppingCartFunctionality extends InstanciateDriver {
 	}
 
 	@Test
-	public void tc_001_checkCartIsNotEmpty() {
+	public void tc_002_checkCartIsNotEmpty() {
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
 		home.clickCartTabButton();
 		cart.checkCartIsNotEmpty();
 	}
 	
 	@Test
-	public void tc_003_DecreaseProductQuantity() {
+	public void tc_003_DecreaseProductQuantity() throws Exception {
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
 		home.clickCartTabButton();
+		Thread.sleep(2000);
 		cart.clickDecreaseProductQuantityButton();
 	}
 	
 	@Test
-	public void tc_004_IncreaseProductQuantity() {
+	public void tc_004_IncreaseProductQuantity() throws Exception {
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
 		home.clickCartTabButton();
+		Thread.sleep(2000);
 		cart.clickIncreaseProductQuantityButton();
 	}
 	
 	@Test
 	public void tc_005_deleteProductFromCart() throws Exception {
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
 		
 		home.clickCartTabButton();
 		Thread.sleep(3000);
 		cart.clickOrderDeleteButton();
-	}*/
+	}
 	
-	@Test
+	/*@Test
 	public void tc_006_placeOrderFromCartForSignedOutUser() throws Exception {
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
 		home.clickCartTabButton();
 		cart.clickProceedToCheckoutButtonInCart();
 		loginCard.enterValidEmail();
@@ -79,8 +81,8 @@ public class TC_005_ShoppingCartFunctionality extends InstanciateDriver {
 		
 		myAccount.clickHomeIconButton();
 		
-		homeNav.clickAddToCartButtonOnHomeProductList();
-		homeNav.clickContinueShoppingButton();
+		home.clickAddToCartButtonOnHomeProductList();
+		productPopup.clickContinueShoppingButton();
 		home.clickCartTabButton();
 		cart.clickProceedToCheckoutButtonInCart();
 		cart.clickProceedToCheckoutButtonInAddressSection();
@@ -88,7 +90,5 @@ public class TC_005_ShoppingCartFunctionality extends InstanciateDriver {
 		cart.clickProceedToCheckoutButtonInShippingSection();
 		cart.clickPayByWireButtonInPaymentSection();
 		cart.clickPaymentWindowConfirmOrderButton();
-	}
-	
-	
+	}*/
 }
