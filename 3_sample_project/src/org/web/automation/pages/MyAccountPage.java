@@ -5,56 +5,42 @@ import org.openqa.selenium.WebDriver;
 import org.web.automation.utility.PageActions;
 import org.web.automation.utility.PropertyReader;
 
-public class Login {
+public class MyAccountPage {
 	
 	WebDriver driver = null;
 	PageActions action = null;
 	
-	public Login(WebDriver driver) {
+	public MyAccountPage(WebDriver driver) {
 		this.driver = driver;
 		action = new PageActions(driver);
 	}
 	
-	public void clickSignInTab() {
-		
-		try {
-			action.clickButton(driver.findElement(By.className
-					(PropertyReader.readElementProperty("login_signin_tab_class"))));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-
-	public void enterEmail() {
-		try {
-			action.enterDataInTextBox(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("login_email_xpath"))),
-					PropertyReader.readConfigProperty("login_email"));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-	
-	public void enterPassword() {
-		try {
-			action.enterDataInTextBox(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("login_email_password_xpath"))),
-					PropertyReader.readConfigProperty("login_password"));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-	
-	public void clickSignInButton() {	
+	public void clickDressesButtonTopMenu() {	
 		try {
 			action.clickButton(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("login_signin_button_xpath"))));
+					(PropertyReader.readElementProperty("login_dresses_tab_top_menu_xpath"))));
+		}
+		catch (Exception e) {
+			System.out.println("---------------------Exception-----------------");
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickDressesAddToCartButton() {	
+		try {
+			action.clickButton(driver.findElement(By.xpath
+					(PropertyReader.readElementProperty("login_dresses_window_add_to_cart_xpath"))));
+		}
+		catch (Exception e) {
+			System.out.println("---------------------Exception-----------------");
+			e.printStackTrace();
+		}
+	}
+	
+	public void clickDressesAddToCartPopupCheckoutButton() {	
+		try {
+			action.clickButton(driver.findElement(By.xpath
+					(PropertyReader.readElementProperty("login_dresses_add_to_cart_popup_checkout_button_xpath"))));
 		}
 		catch (Exception e) {
 			System.out.println("---------------------Exception-----------------");

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-04T23:02:39 EDT" name="Default suite" finished-at="2021-05-04T23:02:49 EDT" duration-ms="10457">
+  <suite started-at="2021-05-07T10:11:23 EDT" name="Default suite" finished-at="2021-05-07T10:11:46 EDT" duration-ms="22412">
     <groups>
     </groups>
-    <test started-at="2021-05-04T23:02:39 EDT" name="Default test" finished-at="2021-05-04T23:02:49 EDT" duration-ms="10457">
-      <class name="org.web.automation.testcases.TC_002_SignIn_Window">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_SignIn_Window@26275bef]" started-at="2021-05-04T23:02:39 EDT" name="startBrowser" finished-at="2021-05-04T23:02:42 EDT" duration-ms="2831" status="PASS">
+    <test started-at="2021-05-07T10:11:23 EDT" name="Default test" finished-at="2021-05-07T10:11:46 EDT" duration-ms="22412">
+      <class name="org.web.automation.testcases.TC_003_HomePageNav">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_003_HomePageNav@26275bef]" started-at="2021-05-07T10:11:23 EDT" name="startBrowser" finished-at="2021-05-07T10:11:26 EDT" duration-ms="2872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="tc_002_SignIn()[pri:0, instance:org.web.automation.testcases.TC_002_SignIn_Window@26275bef]" started-at="2021-05-04T23:02:42 EDT" name="tc_002_SignIn" finished-at="2021-05-04T23:02:49 EDT" duration-ms="7597" status="PASS">
+        <test-method signature="tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity()[pri:0, instance:org.web.automation.testcases.TC_003_HomePageNav@26275bef]" started-at="2021-05-07T10:11:26 EDT" name="tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity" finished-at="2021-05-07T10:11:46 EDT" duration-ms="19512" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_002_SignIn -->
-      </class> <!-- org.web.automation.testcases.TC_002_SignIn_Window -->
+        </test-method> <!-- tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity -->
+      </class> <!-- org.web.automation.testcases.TC_003_HomePageNav -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

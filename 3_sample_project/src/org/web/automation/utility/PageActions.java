@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class PageActions {
 	
 	WebDriverWait wait = null;
+	
 	public PageActions(WebDriver driver) {
 		wait = new WebDriverWait(driver, 20);
 	}
