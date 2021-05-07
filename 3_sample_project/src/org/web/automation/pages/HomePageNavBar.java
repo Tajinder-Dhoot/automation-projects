@@ -26,6 +26,17 @@ public class HomePageNavBar {
 		}
 	}
 	
+	public void clickContinueShoppingButton() {
+		try {
+			action.clickButton(driver.findElement(By.xpath
+					(PropertyReader.readElementProperty("home_nav_continue_shopping_button_xpath"))));
+		}
+		catch (Exception e) {
+			System.out.println("---------------------Exception-----------------");
+			e.printStackTrace();
+		}
+	}
+	
 	public void clickNavDressesButton() {
 		try {
 			action.clickButton(driver.findElement(By.xpath
@@ -63,17 +74,6 @@ public class HomePageNavBar {
 		try {
 			action.clickButton(driver.findElement(By.xpath
 					(PropertyReader.readElementProperty("home_nav_add_to_cart_button_xpath"))));
-		}
-		catch (Exception e) {
-			System.out.println("---------------------Exception-----------------");
-			e.printStackTrace();
-		}
-	}
-	
-	public void clickContinueShoppingButton() {
-		try {
-			action.clickButton(driver.findElement(By.xpath
-					(PropertyReader.readElementProperty("home_nav_continue_shopping_button_xpath"))));
 		}
 		catch (Exception e) {
 			System.out.println("---------------------Exception-----------------");

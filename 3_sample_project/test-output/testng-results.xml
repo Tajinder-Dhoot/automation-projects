@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-07T10:11:23 EDT" name="Default suite" finished-at="2021-05-07T10:11:46 EDT" duration-ms="22412">
+  <suite started-at="2021-05-07T13:47:08 EDT" name="Default suite" finished-at="2021-05-07T13:47:50 EDT" duration-ms="42802">
     <groups>
     </groups>
-    <test started-at="2021-05-07T10:11:23 EDT" name="Default test" finished-at="2021-05-07T10:11:46 EDT" duration-ms="22412">
-      <class name="org.web.automation.testcases.TC_003_HomePageNav">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_003_HomePageNav@26275bef]" started-at="2021-05-07T10:11:23 EDT" name="startBrowser" finished-at="2021-05-07T10:11:26 EDT" duration-ms="2872" status="PASS">
+    <test started-at="2021-05-07T13:47:08 EDT" name="Default test" finished-at="2021-05-07T13:47:50 EDT" duration-ms="42802">
+      <class name="org.web.automation.testcases.TC_005_ShoppingCartFunctionality">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@7690781]" started-at="2021-05-07T13:47:08 EDT" name="startBrowser" finished-at="2021-05-07T13:47:10 EDT" duration-ms="2540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity()[pri:0, instance:org.web.automation.testcases.TC_003_HomePageNav@26275bef]" started-at="2021-05-07T10:11:26 EDT" name="tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity" finished-at="2021-05-07T10:11:46 EDT" duration-ms="19512" status="PASS">
+        <test-method signature="tc_006_placeOrderFromCartForSignedOutUser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@7690781]" started-at="2021-05-07T13:47:10 EDT" name="tc_006_placeOrderFromCartForSignedOutUser" finished-at="2021-05-07T13:47:25 EDT" duration-ms="14650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_001_successfulOrderFromHomePageSignedOutUserReduceProductQuantity -->
-      </class> <!-- org.web.automation.testcases.TC_003_HomePageNav -->
+        </test-method> <!-- tc_006_placeOrderFromCartForSignedOutUser -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@7690781]" started-at="2021-05-07T13:47:25 EDT" name="startBrowser" finished-at="2021-05-07T13:47:28 EDT" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="tc_007_placeOrderFromCartForSignedInUser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@7690781]" started-at="2021-05-07T13:47:28 EDT" name="tc_007_placeOrderFromCartForSignedInUser" finished-at="2021-05-07T13:47:50 EDT" duration-ms="22470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_007_placeOrderFromCartForSignedInUser -->
+      </class> <!-- org.web.automation.testcases.TC_005_ShoppingCartFunctionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

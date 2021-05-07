@@ -15,6 +15,17 @@ public class MyAccountPage {
 		action = new PageActions(driver);
 	}
 	
+	public void clickHomeIconButton() {	
+		try {
+			action.clickButton(driver.findElement(By.xpath
+					(PropertyReader.readElementProperty("my_account_home_icon_xpath"))));
+		}
+		catch (Exception e) {
+			System.out.println("---------------------Exception-----------------");
+			e.printStackTrace();
+		}
+	}
+	
 	public void clickDressesButtonTopMenu() {	
 		try {
 			action.clickButton(driver.findElement(By.xpath

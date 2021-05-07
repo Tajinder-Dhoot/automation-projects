@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.web.automation.pages.MyAccountPage;
+import org.web.automation.pages.HomePage;
 import org.web.automation.pages.HomePageNavBar;
 import org.web.automation.pages.LoginCard;
 import org.web.automation.pages.Registration;
@@ -13,12 +14,13 @@ import org.web.automation.utility.PropertyReader;
 
 public class InstanciateDriver {
 	
+	public HomePage home = null;
 	public WebDriver driver = null;
 	public Registration register = null;
 	public MyAccountPage myAccount = null;
 	public LoginCard loginCard = null;
 	public HomePageNavBar homeNav = null;
-	Shopping cart = null;
+	public ShoppingCart cart = null;
 	
 	@BeforeMethod
 	public void startBrowser() throws Exception {
@@ -29,6 +31,7 @@ public class InstanciateDriver {
 		register = new Registration(driver);
 		loginCard = new LoginCard(driver);
 		myAccount = new MyAccountPage(driver);
+		home = new HomePage(driver);
 		homeNav = new HomePageNavBar(driver);
 		cart = new ShoppingCart(driver);
 

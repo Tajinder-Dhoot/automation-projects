@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.web.automation.testcases.TC_001_Main_Page">
+      <class name="org.web.automation.testcases.TC_005_ShoppingCartFunctionality">
         <methods>
+          <include name="tc_001_checkCartIsEmpty"/>
           <include name="startBrowser"/>
-          <include name="tc_001_ReachLoginPage"/>
         </methods>
-      </class> <!-- org.web.automation.testcases.TC_001_Main_Page -->
+      </class> <!-- org.web.automation.testcases.TC_005_ShoppingCartFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
