@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-07T15:55:42 EDT" name="Default suite" finished-at="2021-05-07T15:55:48 EDT" duration-ms="5479">
+  <suite started-at="2021-05-15T11:57:07 EDT" name="Suite" finished-at="2021-05-15T11:58:19 EDT" duration-ms="71502">
     <groups>
     </groups>
-    <test started-at="2021-05-07T15:55:42 EDT" name="Default test" finished-at="2021-05-07T15:55:48 EDT" duration-ms="5479">
+    <test started-at="2021-05-15T11:57:07 EDT" name="Test" finished-at="2021-05-15T11:58:19 EDT" duration-ms="71502">
       <class name="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@7690781]" started-at="2021-05-07T15:55:42 EDT" name="startBrowser" finished-at="2021-05-07T15:55:45 EDT" duration-ms="2879" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@1ed6388a]" started-at="2021-05-15T11:58:12 EDT" name="startBrowser" finished-at="2021-05-15T11:58:15 EDT" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="tc_002_checkContinuebuttonPresent()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@7690781]" started-at="2021-05-07T15:55:45 EDT" name="tc_002_checkContinuebuttonPresent" finished-at="2021-05-07T15:55:45 EDT" duration-ms="123" status="FAIL">
+        <test-method signature="tc_002_checkContinuebuttonPresent()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@1ed6388a]" started-at="2021-05-15T11:58:15 EDT" name="tc_002_checkContinuebuttonPresent" finished-at="2021-05-15T11:58:15 EDT" duration-ms="156" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -61,11 +61,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_002_checkContinuebuttonPresent -->
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@7690781]" started-at="2021-05-07T15:55:45 EDT" name="startBrowser" finished-at="2021-05-07T15:55:48 EDT" duration-ms="2336" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@1ed6388a]" started-at="2021-05-15T11:58:15 EDT" name="startBrowser" finished-at="2021-05-15T11:58:19 EDT" duration-ms="3659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="tc_003_checkProceedToCheckoutButtonPresent()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@7690781]" started-at="2021-05-07T15:55:48 EDT" name="tc_003_checkProceedToCheckoutButtonPresent" finished-at="2021-05-07T15:55:48 EDT" duration-ms="108" status="FAIL">
+        <test-method signature="tc_003_checkProceedToCheckoutButtonPresent()[pri:0, instance:org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality@1ed6388a]" started-at="2021-05-15T11:58:19 EDT" name="tc_003_checkProceedToCheckoutButtonPresent" finished-at="2021-05-15T11:58:19 EDT" duration-ms="150" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -116,6 +116,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- tc_003_checkProceedToCheckoutButtonPresent -->
       </class> <!-- org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="org.web.automation.testcases.TC_005_ShoppingCartFunctionality">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:07 EDT" name="startBrowser" finished-at="2021-05-15T11:57:19 EDT" duration-ms="12072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="tc_001_checkCartIsEmpty()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:19 EDT" name="tc_001_checkCartIsEmpty" finished-at="2021-05-15T11:57:20 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_checkCartIsEmpty -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:20 EDT" name="startBrowser" finished-at="2021-05-15T11:57:23 EDT" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="tc_002_checkCartIsNotEmpty()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:23 EDT" name="tc_002_checkCartIsNotEmpty" finished-at="2021-05-15T11:57:28 EDT" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_checkCartIsNotEmpty -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:28 EDT" name="startBrowser" finished-at="2021-05-15T11:57:31 EDT" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="tc_003_DecreaseProductQuantity()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:31 EDT" name="tc_003_DecreaseProductQuantity" finished-at="2021-05-15T11:57:44 EDT" duration-ms="13819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_DecreaseProductQuantity -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:44 EDT" name="startBrowser" finished-at="2021-05-15T11:57:47 EDT" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="tc_004_IncreaseProductQuantity()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:47 EDT" name="tc_004_IncreaseProductQuantity" finished-at="2021-05-15T11:57:57 EDT" duration-ms="10552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_IncreaseProductQuantity -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:57:57 EDT" name="startBrowser" finished-at="2021-05-15T11:58:01 EDT" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="tc_005_deleteProductFromCart()[pri:0, instance:org.web.automation.testcases.TC_005_ShoppingCartFunctionality@942a29c]" started-at="2021-05-15T11:58:01 EDT" name="tc_005_deleteProductFromCart" finished-at="2021-05-15T11:58:12 EDT" duration-ms="11295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005_deleteProductFromCart -->
+      </class> <!-- org.web.automation.testcases.TC_005_ShoppingCartFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

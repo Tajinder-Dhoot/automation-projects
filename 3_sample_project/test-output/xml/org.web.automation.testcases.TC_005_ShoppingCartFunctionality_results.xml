@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="41.740">
+  <properties />
+  
+  
+            <testcase name="tc_005_deleteProductFromCart" time="11.295" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_003_DecreaseProductQuantity" time="13.819" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_001_checkCartIsEmpty" time="0.893" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_004_IncreaseProductQuantity" time="10.552" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_002_checkCartIsNotEmpty" time="5.181" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+      
+</testsuite>

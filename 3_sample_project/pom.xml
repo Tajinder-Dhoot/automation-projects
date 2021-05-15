@@ -48,5 +48,18 @@
 	    <artifactId>selenium-server</artifactId>
 	    <version>3.141.59</version>
 	</dependency>
+	
+	<dependency>
+	    <groupId>org.uncommons</groupId>
+	    <artifactId>reportng</artifactId>
+	    <version>1.1.4</version>
+	    <scope>test</scope>
+	</dependency>
+
+	<dependency>
+	    <groupId>com.google.inject</groupId>
+	    <artifactId>guice</artifactId>
+	    <version>4.2.3</version>
+	</dependency>
   </dependencies>
 </project>
