@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="41.740">
+           time="111.421">
   <properties />
   
   
-            <testcase name="tc_005_deleteProductFromCart" time="11.295" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
-                <testcase name="tc_003_DecreaseProductQuantity" time="13.819" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
-                <testcase name="tc_001_checkCartIsEmpty" time="0.893" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
-                <testcase name="tc_004_IncreaseProductQuantity" time="10.552" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
-                <testcase name="tc_002_checkCartIsNotEmpty" time="5.181" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+            <testcase name="tc_004_IncreaseProductQuantity" time="10.592" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_005_deleteProductFromCart" time="8.257" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_003_DecreaseProductQuantity" time="63.183" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_002_checkCartIsNotEmpty" time="5.174" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
+                <testcase name="tc_001_checkCartIsEmpty" time="24.215" classname="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" />
       
 </testsuite>

@@ -5,7 +5,6 @@
     <classes>
       <class name="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality">
         <methods>
-          <include name="tc_003_checkProceedToCheckoutButtonPresent"/>
           <include name="tc_002_checkContinuebuttonPresent"/>
           <include name="startBrowser"/>
         </methods>

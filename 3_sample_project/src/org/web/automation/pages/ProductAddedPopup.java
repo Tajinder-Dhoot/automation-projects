@@ -2,6 +2,7 @@ package org.web.automation.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.web.automation.utility.CaptureScreenshot;
 import org.web.automation.utility.PageActions;
 import org.web.automation.utility.PropertyReader;
 import org.web.automation.utility.Validate;
@@ -77,6 +78,7 @@ public class ProductAddedPopup {
 		}
 		catch (Exception e) {
 			System.out.println("---------------------Exception-----------------");
+			CaptureScreenshot.takeScreenshot(driver, "continue_button_not_found");
 			e.printStackTrace();
 		}
 	}
@@ -89,6 +91,7 @@ public class ProductAddedPopup {
 		}
 		catch (Exception e) {
 			System.out.println("---------------------Exception-----------------");
+			CaptureScreenshot.takeScreenshot(driver, "proceed_to_checkout_button_not_found");
 			e.printStackTrace();
 		}
 	}

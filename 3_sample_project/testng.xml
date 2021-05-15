@@ -7,7 +7,7 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-    	<class name="org.web.automation.testcases.TC_005_ShoppingCartFunctionality"/>
+    	<!-- <class name="org.web.automation.testcases.TC_005_ShoppingCartFunctionality"/> -->
       	<class name="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality"/>
     </classes>
   </test> <!-- Test -->

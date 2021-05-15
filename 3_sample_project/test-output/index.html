@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality" class="method navigator-link" hash-for-method="tc_002_checkContinuebuttonPresent">tc_002_checkContinuebuttonPresent</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality" class="method navigator-link" hash-for-method="tc_003_checkProceedToCheckoutButtonPresent">tc_003_checkProceedToCheckoutButtonPresent</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,27 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" class="method navigator-link" hash-for-method="tc_001_checkCartIsEmpty">tc_001_checkCartIsEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" class="method navigator-link" hash-for-method="tc_002_checkCartIsNotEmpty">tc_002_checkCartIsNotEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" class="method navigator-link" hash-for-method="tc_003_DecreaseProductQuantity">tc_003_DecreaseProductQuantity</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" class="method navigator-link" hash-for-method="tc_004_IncreaseProductQuantity">tc_004_IncreaseProductQuantity</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_005_ShoppingCartFunctionality" class="method navigator-link" hash-for-method="tc_005_deleteProductFromCart">tc_005_deleteProductFromCart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality" class="method navigator-link" hash-for-method="tc_002_checkContinuebuttonPresent">tc_002_checkContinuebuttonPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -158,9 +119,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -169,70 +130,6 @@
                   <a name="tc_002_checkContinuebuttonPresent">
                   </a> <!-- tc_002_checkContinuebuttonPresent -->
                   <span class="method-name">tc_002_checkContinuebuttonPresent</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at org.web.automation.utility.Validate.validateElementPresent(Validate.java:15)
-	at org.web.automation.pages.ProductAddedPopup.ContinueButtonPresent(ProductAddedPopup.java:74)
-	at org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality.tc_002_checkContinuebuttonPresent(TC_006_ProductPopupWindowFunctionality.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_003_checkProceedToCheckoutButtonPresent">
-                  </a> <!-- tc_003_checkProceedToCheckoutButtonPresent -->
-                  <span class="method-name">tc_003_checkProceedToCheckoutButtonPresent</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at org.web.automation.utility.Validate.validateElementPresent(Validate.java:15)
-	at org.web.automation.pages.ProductAddedPopup.ProceedToCheckoutButtonPresent(ProductAddedPopup.java:86)
-	at org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality.tc_003_checkProceedToCheckoutButtonPresent(TC_006_ProductPopupWindowFunctionality.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.web.automation.testcases.TC_005_ShoppingCartFunctionality</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_001_checkCartIsEmpty">
-                  </a> <!-- tc_001_checkCartIsEmpty -->
-                  <span class="method-name">tc_001_checkCartIsEmpty</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_002_checkCartIsNotEmpty">
-                  </a> <!-- tc_002_checkCartIsNotEmpty -->
-                  <span class="method-name">tc_002_checkCartIsNotEmpty</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_003_DecreaseProductQuantity">
-                  </a> <!-- tc_003_DecreaseProductQuantity -->
-                  <span class="method-name">tc_003_DecreaseProductQuantity</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_004_IncreaseProductQuantity">
-                  </a> <!-- tc_004_IncreaseProductQuantity -->
-                  <span class="method-name">tc_004_IncreaseProductQuantity</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_005_deleteProductFromCart">
-                  </a> <!-- tc_005_deleteProductFromCart -->
-                  <span class="method-name">tc_005_deleteProductFromCart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,7 +150,6 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.web.automation.testcases.TC_005_ShoppingCartFunctionality&quot;/&gt;
       &lt;class name=&quot;org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -268,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -294,40 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc_003_DecreaseProductQuantity')
-data.setCell(0, 2, 'org.web.automation.testcases.TC_005_ShoppingCartFunctionality')
-data.setCell(0, 3, 13819);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc_005_deleteProductFromCart')
-data.setCell(1, 2, 'org.web.automation.testcases.TC_005_ShoppingCartFunctionality')
-data.setCell(1, 3, 11295);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc_004_IncreaseProductQuantity')
-data.setCell(2, 2, 'org.web.automation.testcases.TC_005_ShoppingCartFunctionality')
-data.setCell(2, 3, 10552);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'tc_002_checkCartIsNotEmpty')
-data.setCell(3, 2, 'org.web.automation.testcases.TC_005_ShoppingCartFunctionality')
-data.setCell(3, 3, 5181);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'tc_001_checkCartIsEmpty')
-data.setCell(4, 2, 'org.web.automation.testcases.TC_005_ShoppingCartFunctionality')
-data.setCell(4, 3, 893);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'tc_002_checkContinuebuttonPresent')
-data.setCell(5, 2, 'org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality')
-data.setCell(5, 3, 156);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'tc_003_checkProceedToCheckoutButtonPresent')
-data.setCell(6, 2, 'org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality')
-data.setCell(6, 3, 150);
+data.setCell(0, 1, 'tc_002_checkContinuebuttonPresent')
+data.setCell(0, 2, 'org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality')
+data.setCell(0, 3, 5363);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -338,6 +210,12 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc_002_checkContinuebuttonPresent</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a title= "Snapshot" href="D:\miTesting\2_github\3_sample_automation_project\3_sample_project\.\Screenshots\Sat-May-15-15-11-37-EDT-2021continue_button_not_present.png"><img width="418" height="240" alt="Screenshot" title="title" src="../surefire-reports/html/screenshots/./Screenshots/Sat-May-15-15-11-37-EDT-2021continue_button_not_present.png"</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -353,69 +231,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.web.automation.testcases.TC_005_ShoppingCartFunctionality</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">startBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_001_checkCartIsEmpty</span>
-                <span class="method-start">12073 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">12969 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_002_checkCartIsNotEmpty</span>
-                <span class="method-start">15488 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">20671 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_003_DecreaseProductQuantity</span>
-                <span class="method-start">23273 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">37095 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_004_IncreaseProductQuantity</span>
-                <span class="method-start">39537 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">50093 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_005_deleteProductFromCart</span>
-                <span class="method-start">53707 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.web.automation.testcases.TC_006_ProductPopupWindowFunctionality</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">65013 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tc_002_checkContinuebuttonPresent</span>
-                <span class="method-start">67503 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">67664 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tc_003_checkProceedToCheckoutButtonPresent</span>
-                <span class="method-start">71323 ms</span>
+                <span class="method-start">2870 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

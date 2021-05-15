@@ -2,6 +2,7 @@ package org.web.automation.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.web.automation.utility.CaptureScreenshot;
 import org.web.automation.utility.PageActions;
 import org.web.automation.utility.PropertyReader;
 
@@ -33,6 +34,7 @@ public class HomePage {
 		}
 		catch (Exception e) {
 			System.out.println("---------------------Exception-----------------");
+			CaptureScreenshot.takeScreenshot(driver, "add_to_cart_button_not_found");
 			e.printStackTrace();
 		}
 	}
